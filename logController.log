@@ -1,0 +1,36 @@
+2021-05-27 09:31:57,226 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] /log/
+2021-05-27 09:31:57,226 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] method GET
+2021-05-27 09:31:57,226 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] Howdy! Check out the Logs to see the output...
+2021-05-27 09:31:57,226 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] An INFO Message from Controller
+2021-05-27 09:31:57,226 WARN com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] A WARN Message from Controller
+2021-05-27 09:31:57,230 ERROR com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] An ERROR Message from Controller
+2021-05-27 09:34:01,969 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-3] /log/
+2021-05-27 09:34:01,969 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-3] method GET
+2021-05-27 09:34:01,969 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-3] Howdy! Check out the Logs to see the output...
+2021-05-27 09:34:01,973 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-3] An INFO Message from Controller
+2021-05-27 09:34:01,973 WARN com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-3] A WARN Message from Controller
+2021-05-27 09:34:01,973 ERROR com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-3] An ERROR Message from Controller
+2021-05-27 09:37:08,584 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] /log/
+2021-05-27 09:37:08,584 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] method GET
+2021-05-27 09:37:08,584 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] Howdy! Check out the Logs to see the output...
+2021-05-27 09:37:08,584 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] An INFO Message from Controller
+2021-05-27 09:37:08,584 WARN com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] A WARN Message from Controller
+2021-05-27 09:37:08,584 ERROR com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] An ERROR Message from Controller
+2021-05-27 09:47:35,708 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-5] /log/
+2021-05-27 09:47:35,709 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-5] method GET
+2021-05-27 09:47:35,710 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-5] Howdy! Check out the Logs to see the output...
+2021-05-27 09:47:35,710 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-5] An INFO Message from Controller
+2021-05-27 09:47:35,711 WARN com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-5] A WARN Message from Controller
+2021-05-27 09:47:35,713 ERROR com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-5] An ERROR Message from Controller
+2021-05-27 09:48:50,469 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] /log/
+2021-05-27 09:48:50,469 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] method GET
+2021-05-27 09:48:50,470 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] Howdy! Check out the Logs to see the output...
+2021-05-27 09:48:50,471 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] An INFO Message from Controller
+2021-05-27 09:48:50,472 WARN com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] A WARN Message from Controller
+2021-05-27 09:48:50,472 ERROR com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] An ERROR Message from Controller
+2021-05-27 11:39:15,923 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] /log/
+2021-05-27 11:39:15,924 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] method GET
+2021-05-27 11:39:15,924 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] Howdy! Check out the Logs to see the output...
+2021-05-27 11:39:15,924 INFO com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] An INFO Message from Controller
+2021-05-27 11:39:15,925 WARN com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] A WARN Message from Controller
+2021-05-27 11:39:15,925 ERROR com.taco.tacomytaco.DesignTacoController [http-nio-8080-exec-1] An ERROR Message from Controller

@@ -1,0 +1,16 @@
+2021-06-03 14:45:52,395 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'logFilter' configured for use
+2021-06-03 14:49:53,522 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'logFilter' configured for use
+2021-06-03 14:50:20,339 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'logFilter' configured for use
+2021-06-03 14:53:59,844 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'logFilter' configured for use
+2021-06-03 14:54:13,159 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-1] Before request [GET /api/8, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:54:13,167 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-1] REQUEST DATA : GET /api/8, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:54:14,594 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-2] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:54:14,602 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-2] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:54:36,064 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-5] Before request [GET /tacos, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:54:36,064 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-5] REQUEST DATA : GET /tacos, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:56:02,912 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-8] Before request [GET /app/, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:56:03,173 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-8] REQUEST DATA : GET /app/, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:56:03,193 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-10] Before request [GET /taco.jpg, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:56:03,211 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-10] REQUEST DATA : GET /taco.jpg, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:56:03,937 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-1] Before request [GET /taco.jpg, client=0:0:0:0:0:0:0:1]
+2021-06-03 14:56:03,946 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-1] REQUEST DATA : GET /taco.jpg, client=0:0:0:0:0:0:0:1]
