@@ -75,7 +75,7 @@
     <logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" level="info">
         <appender-ref ref="RollingFileMain" />
     </logger>
-    <logger name="com.taco.tacomytaco.DesignTacoController" level="info">
+    <logger name="com.taco.tacomytaco.controllers.DesignTacoController" level="info">
         <appender-ref ref="RollingFile2" />
     </logger>
 <!--    <logger name="org.apache.juli.logging.DirectJDKLog" level="WARN"></logger>-->
