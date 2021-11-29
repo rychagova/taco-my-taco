@@ -5,12 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-    @GetMapping("app/")
+    @GetMapping("/")
     public String home() {
         return "home";
     }
 }
-//the end
-//the end
-// the end
-// the end

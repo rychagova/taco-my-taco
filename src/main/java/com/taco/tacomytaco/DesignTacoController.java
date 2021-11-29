@@ -1,6 +1,5 @@
 package com.taco.tacomytaco;
 
-import lombok.extern.slf4j.Slf4j;
 import org.apache.logging.log4j.LogManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,43 +17,37 @@ import java.util.Arrays;
 import java.util.List;
 
 //@Slf4j
-@RestController
-@RequestMapping("log/")
-public class DesignTacoController {
-    Logger logger = LoggerFactory.getLogger(DesignTacoController.class);
-
-
-    @Autowired
-    TacoRepository repository;
-
-    @RequestMapping("/")
-    public String index() {
-        String toReturn = "Howdy! Check out the Logs to see the output...";
-        logger.info("/log/");
-        logger.info("method GET");
-        logger.info(toReturn);
-        logger.trace("A TRACE Message from Controller");
-        logger.debug("A DEBUG Message from Controller");
-        logger.info("An INFO Message from Controller");
-        logger.warn("A WARN Message from Controller");
-        logger.error("An ERROR Message from Controller");
-
-        return toReturn;
-    }
-    @GetMapping("/tacos")
-    public List<Taco> adminPage() {
-        return (List<Taco>) repository.findAll();
-    }
-
-
-    @PostMapping("/add")
-    public void addUser(@RequestBody Taco taco) {
-        repository.save(taco);
-    }
-
-
-
-
-
-
-}
+//@RestController
+//@RequestMapping("log/")
+//public class DesignTacoController {
+//    Logger logger = LoggerFactory.getLogger(DesignTacoController.class);
+//
+//
+//    @Autowired
+//    TacoRepository repository;
+//
+//    @RequestMapping("/")
+//    public String index() {
+//        String toReturn = "Howdy! Check out the Logs to see the output...";
+//        logger.info("/log/");
+//        logger.info("method GET");
+//        logger.info(toReturn);
+//        logger.trace("A TRACE Message from Controller");
+//        logger.debug("A DEBUG Message from Controller");
+//        logger.info("An INFO Message from Controller");
+//        logger.warn("A WARN Message from Controller");
+//        logger.error("An ERROR Message from Controller");
+//
+//        return toReturn;
+//    }
+//    @GetMapping("/tacos")
+//    public List<Taco> adminPage() {
+//        return (List<Taco>) repository.findAll();
+//    }
+//
+//
+//    @PostMapping("/add")
+//    public void addUser(@RequestBody Taco taco) {
+//        repository.save(taco);
+//    }
+//}

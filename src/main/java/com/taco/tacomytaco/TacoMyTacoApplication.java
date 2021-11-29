@@ -27,9 +27,6 @@ public class TacoMyTacoApplication {
 			}
 		});
 		app.run(args);
-
-		makeStandardLog();
-
 	}
 	static void makeStandardLog(){
 		Logger logger = LoggerFactory.getLogger(TacoMyTacoApplication.class);
