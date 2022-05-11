@@ -10,12 +10,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.core.env.Environment;
-import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 
 @SpringBootApplication
-public class TacoMyTacoApplication implements WebMvcConfigurer {
+public class TacoMyTacoApplication  {
 
 	public static void main(String[] args) {
 
@@ -29,10 +27,6 @@ public class TacoMyTacoApplication implements WebMvcConfigurer {
 			}
 		});
 		app.run(args);
-	}
-	@Override
-	public void addViewControllers(ViewControllerRegistry registry) {
-		registry.addViewController("/2").setViewName("home");
 	}
 	static void makeStandardLog(){
 		Logger logger = LoggerFactory.getLogger(TacoMyTacoApplication.class);
