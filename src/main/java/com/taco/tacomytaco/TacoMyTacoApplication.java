@@ -13,7 +13,7 @@ import org.springframework.core.env.Environment;
 
 
 @SpringBootApplication
-public class TacoMyTacoApplication {
+public class TacoMyTacoApplication  {
 
 	public static void main(String[] args) {
 
@@ -27,9 +27,6 @@ public class TacoMyTacoApplication {
 			}
 		});
 		app.run(args);
-
-		makeStandardLog();
-
 	}
 	static void makeStandardLog(){
 		Logger logger = LoggerFactory.getLogger(TacoMyTacoApplication.class);
