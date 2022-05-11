@@ -1,7 +1,6 @@
 package com.taco.tacomytaco.controllers;
 import com.taco.tacomytaco.models.Ingredient;
 import com.taco.tacomytaco.models.Taco;
-import com.taco.tacomytaco.models.Design;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -54,34 +53,3 @@ public class DesignTacoController {
         return "redirect:/orders/current";
     }
 }
-//    Logger logger = LoggerFactory.getLogger(DesignTacoController.class);
-//
-//
-//    @Autowired
-//    TacoRepository repository;
-//
-//    @RequestMapping("/")
-//    public String index() {
-//        String toReturn = "Howdy! Check out the Logs to see the output...";
-//        logger.info("/log/");
-//        logger.info("method GET");
-//        logger.info(toReturn);
-//        logger.trace("A TRACE Message from Controller");
-//        logger.debug("A DEBUG Message from Controller");
-//        logger.info("An INFO Message from Controller");
-//        logger.warn("A WARN Message from Controller");
-//        logger.error("An ERROR Message from Controller");
-//
-//        return toReturn;
-//    }
-//    @GetMapping("/tacos")
-//    public List<Taco> adminPage() {
-//        return (List<Taco>) repository.findAll();
-//    }
-//
-//
-//    @PostMapping("/add")
-//    public void addUser(@RequestBody Taco taco) {
-//        repository.save(taco);
-//    }
-//}
