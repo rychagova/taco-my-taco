@@ -1,15 +1,10 @@
 package com.taco.tacomytaco;
 
-import java.io.PrintStream;
-
 import org.apache.logging.log4j.LogManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.core.env.Environment;
 
 
 @SpringBootApplication
@@ -19,13 +14,7 @@ public class TacoMyTacoApplication  {
 
 		SpringApplication app = new SpringApplication
 				(TacoMyTacoApplication.class);
-		app.setBanner(new Banner() {
-			@Override
-			public void printBanner(Environment environment,
-									Class<?> sourceclass, PrintStream out) {
-				out.print("\n\n\tThis is my own banner!\n\n".toUpperCase());
-			}
-		});
+		app.setBanner((environment, sourceclass, out) -> out.print("\n\n\tThis is my own banner!\n\n".toUpperCase()));
 		app.run(args);
 	}
 	static void makeStandardLog(){
